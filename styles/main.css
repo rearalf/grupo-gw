@@ -1,0 +1,52 @@
+:root {
+	--font-size-paragraph: 14px;
+	--font-size-h1: 20px;
+	--font-size-h2: 18px;
+	--font-size-h3: 16px;
+
+	--background-color-primary: #f2f2f2;
+	--background-color-secondary: #e5e5e5;
+
+	--color-paragraph: #8c8c8c;
+	--color-h1: #be3323;
+	--color-h2: #db4a39;
+	--color-h3: #ec6a5b;
+	--color-link: #4d4d4d;
+	--color-link-hover: #c92a18;
+
+	--border-radius: 5px;
+
+	--color-box-shadow: #bfbfbf66;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	color: var(--color-link);
+}
+
+a:hover {
+	color: var(--color-link-hover);
+}
+
+body {
+	font-size: var(--font-size-paragraph);
+	background-color: var(--background-color-primary);
+	color: var(--color-paragraph);
+}
+
+h1 {
+	color: var(--color-h1);
+	font-size: var(--font-size-h1);
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
