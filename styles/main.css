@@ -17,6 +17,13 @@
 	--border-radius: 5px;
 
 	--color-box-shadow: #bfbfbf66;
+
+	--background-button-primary: #e51a24;
+	--background-button-primary-hover: #cf1720;
+	--text-color-button-primary: #f2f2f2;
+	--box-shadow-button-primary: 4px 4px 4px 0 #b8141d80;
+
+	--box-shadow-button-secondary: 4px 4px 4px #00000080;
 }
 
 * {
@@ -46,7 +53,42 @@ h1 {
 	font-size: var(--font-size-h1);
 }
 
+h2 {
+	color: var(--color-h2);
+	font-size: var(--font-size-h2);
+}
+
 button {
 	border: none;
 	cursor: pointer;
+}
+
+.container {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.btn {
+	border-radius: var(--border-radius);
+	padding: 16px 32px;
+	transition: all .2s ease-in-out;
+}
+
+.btn__primary {
+	background-color: var(--background-button-primary);
+	color: var(--text-color-button-primary);
+}
+.btn__primary:hover {
+	color: var(--text-color-button-primary);
+	background-color: var(--background-button-primary-hover);
+	box-shadow: var(--box-shadow-button-primary);
+}
+
+.btn__secundary {
+	background-color: transparent;
+}
+
+.btn__secundary:hover {
+	color: var(--color-link);
+	box-shadow: var(--box-shadow-button-secondary);
 }

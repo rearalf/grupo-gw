@@ -8,10 +8,10 @@ export const NavBar__Style = css`
 	.navbar {
 		background-color: ${theme['--background-color-primary']};
 		box-shadow: 0 4px 4px 0 ${theme['--color-box-shadow']};
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 		display: flex;
 		justify-content: space-between;
-		padding: 15px;
+		padding: 15px 25px;
 	}
 
 	.brand {
@@ -52,7 +52,8 @@ export const NavBar__Style = css`
 		box-shadow: 4px 0 4px 0 ${theme['--color-box-shadow']};
 		width: 250px;
 		height: 100%;
-		position: absolute;
+		position: fixed;
+		z-index: 5;
 		top: 0;
 		left: 0;
 		transform: translateX(-300px);
@@ -86,6 +87,9 @@ export const NavBar__Style = css`
 	}
 
 	@media screen and (min-width: 800px) {
+		.navbar {
+			padding: 15px 80px;
+		}
 		.btn__toggle {
 			display: none;
 		}

@@ -13,4 +13,8 @@ export const theme = {
 	'--color-link-hover': '#c92a18',
 	'--border-radius': '5px',
 	'--color-box-shadow': '#bfbfbf66',
+	'--background-button-primary': '#e51a24',
+	'--background-button-primary-hover': '#cf1720',
+	'--text-color-button-primary': '#f2f2f2',
+	'--box-shadow-button-primary': '4px 4px 4px #b8141d80',
 };

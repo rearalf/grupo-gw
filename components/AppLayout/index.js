@@ -7,7 +7,7 @@ export const AppLayout = ({ children, title = '', description = '' }) => {
 		<Fragment>
 			<Header title={title} description={description} />
 			<NavBar />
-			<main className="container Mt2">{children}</main>
+			<main className="container">{children}</main>
 		</Fragment>
 	);
 };
