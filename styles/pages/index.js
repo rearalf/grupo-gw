@@ -90,6 +90,7 @@ export const Home__Styles = css`
 	.section__one .column__two .text__shoes {
 		color: ${theme['--color-h2']};
 		transition: all .5s;
+		font-size: 12px;
 	}
 	.section__one .column__two .text__shoes:hover {
 		transform: translateX(1rem);
@@ -142,6 +143,9 @@ export const Home__Styles = css`
 		}
 		.btn__group {
 			justify-content: flex-start;
+		}
+		.section__one .column__two .text__shoes {
+			font-size: 14px;
 		}
 
 		.section__two {

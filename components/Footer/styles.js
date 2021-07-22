@@ -52,9 +52,11 @@ export const Footer__styles = css`
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		font-size: .8em;
+		text-align: center;
 	}
 
-	@media screen and (min-width: 480px) {
+	@media screen and (min-width: 575px) {
 		.footer__container {
 			padding: 15px 80px;
 		}

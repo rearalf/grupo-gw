@@ -17,4 +17,11 @@ export const theme = {
 	'--background-button-primary-hover': '#cf1720',
 	'--text-color-button-primary': '#f2f2f2',
 	'--box-shadow-button-primary': '4px 4px 4px #b8141d80',
+	'--font-family-Libre-Franklin': "'Libre Franklin', sans-serif",
+	'--font-family-Nunito': "'Nunito', sans-serif",
+	'--font-family-Open-Sans': "'Open Sans', sans-serif",
+	'--font-weight-bold': 700,
+	'--font-weight--semi-bold': 600,
+	'--font-weight-normal': 500,
+	'--font-weight-regular': 400,
 };
