@@ -9,11 +9,12 @@
 		"start": "next start",
 		"lint": "next lint"
 	},
-	"keywords": [
-		"react",
-		"nextjs"
-	],
-	"author": "Ricardo Alf",
+	"keywords": [ "react", "nextjs" ],
+	"author": {
+		"name": "Ricardo Alf",
+		"email": "rear_recinos@hotmail.com",
+		"url": "https://rearalf.vercel.app/"
+	},
 	"license": "ISC",
 	"dependencies": {
 		"next": "^11.0.1",
