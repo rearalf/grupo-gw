@@ -1,12 +1,17 @@
 import { Header } from '../components/Head';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Custom404(){
 	return (
 		<div className="content">
 			<Header title={'404 Esta página no se pudo encontrar'} description={''} />
-			<img src="/404-sgv.svg" alt="404 - Page Not Found" />
+			<Image src="/404-sgv.svg" alt="404 - Page Not Found" width={500} height={500} />
 			<h3>
-				404 - Esta página no se pudo encontrar <a href="/">Regresar a inicio</a>
+				404 - Esta página no se pudo encontrar
+				<Link href="/">
+					<a>Regresar a inicio</a>
+				</Link>
 			</h3>
 			<style jsx>{`
 				.content {

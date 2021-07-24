@@ -17,7 +17,9 @@ export const NavBar__Style = css`
 	.brand {
 		display: flex;
 		align-items: center;
-		gap: 10px;
+	}
+	.brand .brand__logo {
+		margin-right: 10px;
 	}
 
 	.btn__toggle {
@@ -38,13 +40,17 @@ export const NavBar__Style = css`
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: 20px;
+	}
+	.navbar__desk ul .nav__item {
+		margin: 0 10px;
 	}
 
 	.navbar__desk ul .nav__link {
 		display: flex;
 		align-items: center;
-		gap: 5px;
+	}
+	.navbar__desk ul .nav__link :global(svg) {
+		margin-right: 5px;
 	}
 
 	.lateral__nav {
@@ -78,9 +84,12 @@ export const NavBar__Style = css`
 
 	.lateral__navbar .nav__link {
 		display: flex;
-		gap: 10px;
+		align-items: center;
 		padding: 16px 32px;
 		transition: padding-left .5s ease-in-out;
+	}
+	.lateral__navbar .nav__link :global(svg) {
+		margin-right: 10px;
 	}
 	.lateral__navbar .nav__link:hover {
 		padding-left: 40px;

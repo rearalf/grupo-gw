@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { AppLayout } from '../components/AppLayout';
 import { About__Styles } from '../styles/pages/About_styles';
 

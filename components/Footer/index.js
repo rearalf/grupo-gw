@@ -19,7 +19,7 @@ export const Footer = () => {
 						<a
 							href="https://facebook.com"
 							target="_blank"
-							rel="noopener"
+							rel="noreferrer"
 							aria-label="Ir al sitio de Facebook">
 							<FiFacebook size="25" />
 						</a>

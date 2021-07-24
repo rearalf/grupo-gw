@@ -118,10 +118,20 @@ function Contacts(){
 				</div>
 				<div className="section__contact">
 					<div className="social__media">
-						<a href="/" className="social__network" target="_blank">
+						<a
+							href="https://facebook.com"
+							target="_blank"
+							rel="noreferrer"
+							aria-label="Ir al sitio de Facebook"
+							className="social__network">
 							<FiFacebook size="25" />
 						</a>
-						<a href="/" className="social__network" target="_blank">
+						<a
+							href="https://www.instagram.com/"
+							target="_blank"
+							rel="noreferrer"
+							aria-label="Ir al sitio de Facebook"
+							className="social__network">
 							<FiInstagram size="25" />
 						</a>
 					</div>

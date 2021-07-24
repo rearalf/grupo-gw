@@ -3,6 +3,7 @@ import { AppLayout } from '../components/AppLayout';
 import { Home__Styles } from '../styles/pages';
 
 function HomePage(){
+	console.log(process.env.NEXT_PUBLIC_ANALYTICS_ID);
 	return (
 		<AppLayout
 			title="GO AND WALK"

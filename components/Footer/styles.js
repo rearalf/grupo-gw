@@ -21,7 +21,9 @@ export const Footer__styles = css`
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 10px;
+	}
+	.footer__brand .brand__logo {
+		margin-right: 10px;
 	}
 
 	.footer__line {
@@ -31,17 +33,17 @@ export const Footer__styles = css`
 
 	.footer__section_two {
 		list-style: none;
-		padding: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 25px;
+		padding: 0 25%;
 		margin-bottom: 25px;
 	}
 	.footer__contact {
 		display: flex;
 		align-items: center;
-		gap: 10px;
+		margin-bottom: 25px;
+	}
+	.footer__contact :global(svg) {
+		margin-right: 10px;
+		align-self: flex-start;
 	}
 
 	.end__footer {
@@ -61,14 +63,10 @@ export const Footer__styles = css`
 			padding: 15px 80px;
 		}
 		.footer__section_two {
-			flex-direction: row;
-			align-items: center;
-			justify-content: space-between;
-		}
-		.footer__contact {
 			display: flex;
-			align-items: center;
-			gap: 10px;
+			align-items: flex-start;
+			justify-content: space-between;
+			padding: 0;
 		}
 	}
 `;

@@ -26,8 +26,10 @@ export const Home__Styles = css`
 
 	.btn__group {
 		display: flex;
-		gap: 10px;
 		justify-content: center;
+	}
+	.btn__group a:nth-child(1) {
+		margin-right: 10px;
 	}
 
 	.section__one .column__two {
@@ -80,7 +82,7 @@ export const Home__Styles = css`
 		content: '';
 		display: block;
 		background-color: ${theme['--background-color-secondary']};
-		border-radius: 50%;
+		border-radius: 100%;
 		position: absolute;
 		z-index: -1;
 		width: 100%;
